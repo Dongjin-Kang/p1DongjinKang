@@ -3,17 +3,29 @@
 
 ## Microwave
 
-<img src="https://github.com/Dongjin-Kang/p1DongjinKang/issues/1#issue-818364294" width="50%" height="50%">
+![20210301_092925](https://user-images.githubusercontent.com/79811377/109439720-d696ce80-7a72-11eb-853b-ecefbd861822.jpg)
 
-The purpose of Proclipsing is to lower the difficulty of using Processing in Eclipse.
+A microwave is an electronic device used for reheating semi-cooked foods or for simple cooking.  Compared to other home appliances, the function is simple and the difference between products is not big, but it is better to consider several things together, such as size and usage, to increase utilization.
 
-This Eclipse plugin bootstraps the creation of an Eclipse Java project that relies on the Processing **.jar** dependencies. This is different from the [processing-eclipse](http://github.com/processing/processing-eclipse) experiment, which adheres to the PDE / codegen approach found in the Processing IDE itself.
+The microwave oven has several function buttons, which consist of fast thawing, deodorizing, heating, automatic cooking, life/snack, clock, cancellation, cooking start, time adjustment, locking, and door buttons.
 
-It allows you to easily create a Processing project in Eclipse by simply putting in the path to your Processing app, the path to your Sketch folder (for contributed libraries), and then selecting the libraries you want. Proclipsing then creates a project with the desired libs (with native libraries), skeleton package structure, and a PApplet.
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/79811377/109444295-4790b300-7a80-11eb-84dd-1b7978cd93ce.gif)
 
-You can also add or remove libraries later with an option in the project preferences menu.
+A brief description of the functions of this microwave oven is as follows:
 
-## Installing
+*Speed thawing is a function that reduces thawing time.\
+*Deodorization forces air circulation through a blast to remove the smell inside.\
+*Heating/auto-cooking/living/snacking, the microwave operates with the output and time set according to the ingredients and dishes.\
+*Speed thawing is a function that reduces thawing time.\
+*Locking is a function of locking the bertzon to prevent malfunction due to infant touch.\
+*-/+ is a microwave operation time setting function.\
+*Door buttons are functions that open microwave doors.
+
+## The Issues with The Current Design 
+
+Some of the problems with this microwave design include heating, automatic cooking, and living/snacking. These functions actually function according to the output and time set by each semi-cooked food and simple dish. These features make it easy to operate the microwave that fits your food with a single click. However, there is an inconvenience that the setting value has already been set and cannot be changed. If you don't eat food that's tailored to this function, it's actually a completely unnecessary function, and a number of already set buttons make the microwave interface look messy.
+
+## The Issues with The Current Design 
 
 1. Download a [release](https://github.com/ybakos/proclipsing/releases) **.zip** file.
 2. Unzip the file and place the folder in a convenient location.
