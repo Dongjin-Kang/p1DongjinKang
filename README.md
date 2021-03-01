@@ -3,6 +3,8 @@
 
 ## Microwave
 
+<img src="https://github.com/Dongjin-Kang/p1DongjinKang/issues/1#issue-818364294" width="50%" height="50%">
+
 The purpose of Proclipsing is to lower the difficulty of using Processing in Eclipse.
 
 This Eclipse plugin bootstraps the creation of an Eclipse Java project that relies on the Processing **.jar** dependencies. This is different from the [processing-eclipse](http://github.com/processing/processing-eclipse) experiment, which adheres to the PDE / codegen approach found in the Processing IDE itself.
